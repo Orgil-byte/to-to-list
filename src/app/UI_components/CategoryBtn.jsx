@@ -1,4 +1,4 @@
-const CategoryBtn = ({ setFiltered, btnColorChange }) => {
+export const CategoryBtn = ({ setFiltered, btnColorChange }) => {
   return (
     <div className="flex w-86.25 gap-1.5 mb-5">
       <button
@@ -22,5 +22,3 @@ const CategoryBtn = ({ setFiltered, btnColorChange }) => {
     </div>
   );
 };
-
-export default CategoryBtn;

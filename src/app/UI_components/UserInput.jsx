@@ -1,4 +1,4 @@
-const UserInput = ({ toggleComplete, id, item, text, deleteItem }) => {
+export const UserInput = ({ toggleComplete, id, item, text, deleteItem }) => {
   return (
     <div className="w-86.25 h-15.5 flex items-center gap-5 p-4 bg-[#F9FAFB]">
       <input
@@ -24,5 +24,3 @@ const UserInput = ({ toggleComplete, id, item, text, deleteItem }) => {
     </div>
   );
 };
-
-export default UserInput;

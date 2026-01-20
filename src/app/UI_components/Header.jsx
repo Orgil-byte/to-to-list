@@ -1,4 +1,4 @@
-const Header = ({ input, getInput, add }) => {
+export const Header = ({ input, getInput, add }) => {
   return (
     <div>
       <h1 className="text-[20px] font-semibold">To-Do list</h1>
@@ -19,4 +19,3 @@ const Header = ({ input, getInput, add }) => {
     </div>
   );
 };
-export default Header;

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const useLogicFuncs = () => {
+export const useLogicFuncs = () => {
   const [input, setInput] = useState("");
   const [renderInput, setRenderInput] = useState([]);
   const [nextId, setNextId] = useState(0);
@@ -90,5 +90,3 @@ const useLogicFuncs = () => {
     clearCompleted,
   };
 };
-
-export { useLogicFuncs };

@@ -1,4 +1,4 @@
-const TaskInfo = ({ itemIsComplete, clearCompleted, renderInput }) => {
+export const TaskInfo = ({ itemIsComplete, clearCompleted, renderInput }) => {
   return (
     <div>
       {renderInput.length === 0 ? (
@@ -26,5 +26,3 @@ const TaskInfo = ({ itemIsComplete, clearCompleted, renderInput }) => {
     </div>
   );
 };
-
-export default TaskInfo;

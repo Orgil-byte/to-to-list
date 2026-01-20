@@ -1,3 +1,11 @@
+"use client";
+
+import { useLogicFuncs } from "../hooks/useLogicFunc";
+import { CategoryBtn } from "./CategoryBtn";
+import { Header } from "./Header";
+import { RenderTasks } from "./RenderTasks";
+import { TaskInfo } from "./TaskInfo";
+
 export const TodoMain = () => {
   const {
     input,

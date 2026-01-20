@@ -1,6 +1,6 @@
-import UserInput from "../userInputs/page";
+import { UserInput } from "./UserInput";
 
-const RenderTasks = ({ filteredTasks, toggleComplete, deleteItem }) => {
+export const RenderTasks = ({ filteredTasks, toggleComplete, deleteItem }) => {
   return (
     <div className="flex flex-col gap-4">
       {filteredTasks.map((item) => (
@@ -16,5 +16,3 @@ const RenderTasks = ({ filteredTasks, toggleComplete, deleteItem }) => {
     </div>
   );
 };
-
-export default RenderTasks;

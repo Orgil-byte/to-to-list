@@ -1,7 +1,9 @@
+import { TodoMain } from "./UI_components/TodoMain";
+
 const Main = () => {
   return (
     <div>
-      <Page />
+      <TodoMain />
     </div>
   );
 };
