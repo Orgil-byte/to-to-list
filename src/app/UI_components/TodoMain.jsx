@@ -10,7 +10,6 @@ export const TodoMain = () => {
   const {
     input,
     renderInput,
-    filtered,
     setFiltered,
     add,
     getInput,
