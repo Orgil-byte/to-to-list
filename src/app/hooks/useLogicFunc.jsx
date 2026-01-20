@@ -78,7 +78,6 @@ export const useLogicFuncs = () => {
   return {
     input,
     renderInput,
-    filtered,
     setFiltered,
     add,
     getInput,
