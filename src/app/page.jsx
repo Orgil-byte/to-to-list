@@ -1,6 +1,6 @@
 "use client";
 
-import { useLogicFuncs } from "./logic_and_functions/page";
+import { useLogicFuncs } from "./hooks/Functions";
 import Header from "./UI_components/header/page";
 import CategoryBtn from "./UI_components/categoryBtn/page";
 import RenderTasks from "./UI_components/renderTasks/page";
