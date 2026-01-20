@@ -1,3 +1,5 @@
+import { Button } from "./Buttons";
+
 export const TaskInfo = ({ itemIsComplete, clearCompleted, renderInput }) => {
   return (
     <div>
@@ -12,12 +14,11 @@ export const TaskInfo = ({ itemIsComplete, clearCompleted, renderInput }) => {
           <p className="text-[14px] text-[#6B7280]">
             {itemIsComplete.length} of {renderInput.length} is complete.
           </p>
-          <button
+          <Button
             onClick={() => clearCompleted(true)}
-            className="text-[14px] text-[#EF4444] cursor-pointer"
-          >
-            Clear Completed
-          </button>
+            className={"text-[14px] text-[#EF4444] cursor-pointer"}
+            text={"Clear completed"}
+          />
         </div>
       )}
       <p className="text-[12px] mt-10 text-[#6B7280]">

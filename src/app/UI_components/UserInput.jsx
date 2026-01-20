@@ -1,3 +1,5 @@
+import { Button } from "./Buttons";
+
 export const UserInput = ({ toggleComplete, id, item, text, deleteItem }) => {
   return (
     <div className="w-86.25 h-15.5 flex items-center gap-5 p-4 bg-[#F9FAFB]">
@@ -14,13 +16,13 @@ export const UserInput = ({ toggleComplete, id, item, text, deleteItem }) => {
       >
         {text}
       </p>
-
-      <button
+      <Button
         onClick={() => deleteItem(id)}
-        className="text-[14px] py-1.5 px-4 bg-[#FEF2F2] text-[#EF4444] rounded-sm cursor-pointer"
-      >
-        Delete
-      </button>
+        className={
+          "text-[14px] py-1.5 px-4 bg-[#FEF2F2] text-[#EF4444] rounded-sm cursor-pointer"
+        }
+        text={"Delete"}
+      />
     </div>
   );
 };

@@ -57,7 +57,7 @@ export const useLogicFuncs = () => {
   const filteredTasks = getFilteredTasks();
 
   const btnColorChange = (buttonType) => {
-    const base = "py-1 px-3 h-8  text-[12px] rounded-sm";
+    const base = "py-1 px-3 h-8  text-[12px] rounded-sm cursor-pointer";
     const normal = "bg-[#F3F4F6] text-[#363636]";
     const active = "bg-[#3c82f6] text-white";
     return `${base} ${filtered === buttonType ? active : normal}`;
