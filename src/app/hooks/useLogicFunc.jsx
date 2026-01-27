@@ -23,6 +23,7 @@ export const useLogicFuncs = () => {
     setInput("");
     setNextId(nextId + 1);
   };
+  console.log(renderInput);
 
   const getInput = (e) => {
     return setInput(e.target.value);
